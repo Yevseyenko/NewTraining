@@ -22,8 +22,8 @@ public class Main {
                 return o1.getAge() - o2.getAge();
             }
         });
-
-        System.out.println("\nAfter sort:");
+        System.out.println("hi");
+        System.out.println("After");
         for (User user : users) {
             System.out.println(user);
         }

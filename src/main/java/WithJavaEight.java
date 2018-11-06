@@ -13,6 +13,7 @@ public class WithJavaEight {
         System.out.println("Before sort:");
         for(User user: users){
             System.out.println(user);
+            System.out.println("2");
         }
 
         Collections.sort(users,(o1,o2)->o1.getAge()-o2.getAge());
