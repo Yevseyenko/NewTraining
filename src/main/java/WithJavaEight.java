@@ -17,7 +17,7 @@ public class WithJavaEight {
         }
 
         Collections.sort(users,(o1,o2)->o1.getAge()-o2.getAge());
-        System.out.println("\nAfter sort:");
+        System.out.println("After");
         for (User user : users) {
             System.out.println(user);
         }
